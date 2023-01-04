@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oracle-challenger_PRIMER DESAFIO</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <img src="imagenes/Logo.png" alt="imagen alura">
+    </header>
+    <main class="contenedor-principal" >
+        <section class="seccion1"> 
+            <textarea class="area" id="mensaje" required placeholder="ingrese su texto aqui..." autofocus > </textarea>
+            <button class="boton" id="encriptar">Encriptar</button>
+            <button class="boton" id="desencriptar">Desencriptar</button>
+        </section>
+        <section class ="seccion2" >
+            <div class="contenedorMuñeco">
+                <img src="imagenes/Muñeco.png" alt="muñeco buscador" class="muñeco" id="muñeco">
+            </div>
+            <div class="cajaTexto2">  
+                <h3>Ningun mensaje encontrado.</h3>
+            </div>
+
+            <div class="contenedorParrafo">
+                <p>Ingrese el texto que desea encriptar o desencriptar</p>
+                <textarea class="textSolucion" id="resultado" placeholder="..." >Solucion...</textarea>
+                <button class="copiar" id="copiar">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer class="pie" ></footer>
+    <script src="javaScript.js"></script>
+</body>
+</html>
